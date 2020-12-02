@@ -20,8 +20,8 @@ function salvarNoLocalStorage(item) {
 }
 
 function criarElementoLista(itemText) {
-    var optItem = document.createElement('option'); // <option></option>
-    optItem.textContent = itemText; // <option>itemMercado</option>
+    var optItem = document.createElement('option'); 
+    optItem.textContent = itemText;
     selLista.appendChild(optItem);
 }
 
